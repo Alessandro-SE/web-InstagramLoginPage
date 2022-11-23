@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+body{
+    background-color: #efefef;
+    margin: 0;
+}
+article.marco{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 32px;
+    flex-direction: row;
+    position: relative;
+    right: 100px;
+}
+.phone{
+    background-image: url("/img/image.png");
+    height: 581.15px;
+    width: 466px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.image_change{
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-left: 154px;
+    padding-top: 24px;
+}
+.formulario{
+    position: relative;
+    right: 250px;
+    width: 350px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+form fieldset{
+    background-color: white;
+    box-shadow: 0 0 5px 0 grey;
+    border: 1px solid grey;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.title{
+    font-size: 40px;
+    padding: 30px;
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.recuadros{
+    width: 250px;
+    height: 25px;
+    margin: 3px;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    box-shadow: 1px 1px grey;
+}
+.inicio{
+    width: 260px;
+    height: 25px;
+    margin: 10px;
+    background-color: #1e8ffff8;
+    color: white;
+    border: none;
+    opacity: 0.5;
+}
+hr{
+    max-width: 72%;
+}
+.sesion{
+    cursor: pointer;
+    color: #385185;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.olvidado{
+    color: #385185;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.crear_cuenta{
+    position: fixed;
+    right: 0;
+    bottom: 250px;
+    left: 800px;
+}
+.register{
+    padding-top: 15px;
+}
+.titulo_aplicacion{
+    padding: 20px 0px;
+}
+footer{
+    padding-top: 50px;
+    text-align: center;
+}
+footer div{
+    display: inline-block; 
+    padding-right: 15px;
+    color: grey;
+    opacity: 0.9;
+    cursor: pointer;
+    margin: 5px;
+}
